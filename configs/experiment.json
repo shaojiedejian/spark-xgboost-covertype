@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "test_fraction": 0.2,
+  "train_sizes": [10000, 50000, 100000, 300000],
+  "comparison_size": 100000,
+  "parallel_size": 100000,
+  "repeats": 2,
+  "local_cores": 4,
+  "driver_memory": "4g",
+  "partitions": 4,
+  "xgboost": {
+    "n_estimators": 100,
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "tree_method": "hist",
+    "device": "cpu"
+  },
+  "random_forest": {"numTrees": 80, "maxDepth": 8, "maxBins": 32},
+  "decision_tree": {"maxDepth": 8, "maxBins": 32}
+}

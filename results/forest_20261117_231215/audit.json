@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "run": "decision_tree_n100000_w1_r0",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "decision_tree_n100000_w1_r1",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "random_forest_n100000_w1_r0",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "random_forest_n100000_w1_r1",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n100000_w1_r0",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n100000_w1_r1",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n10000_w1_r0",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n10000_w1_r1",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n50000_w1_r0",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n50000_w1_r1",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n300000_w1_r0",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n300000_w1_r1",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n100000_w2_r0",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    },
+    {
+      "run": "xgboost_n100000_w2_r1",
+      "rows_verified": 116203,
+      "metrics_recomputed": true
+    }
+  ],
+  "scope": "all predictions, fixed test IDs and labels, metrics, confusion matrices, CPU logs and model reload evidence"
+}

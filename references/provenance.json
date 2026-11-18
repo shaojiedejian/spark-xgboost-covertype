@@ -1,0 +1,26 @@
+{
+  "paper_url": "https://arxiv.org/pdf/1603.02754",
+  "example_url": "https://github.com/dmlc/xgboost/blob/v2.1.4/demo/guide-python/spark_estimator_examples.py",
+  "files": {
+    "xgboost-paper.pdf": {
+      "sha256": "52bc282c922a239134ee4d6f4367c58bf920a9bdd53acbb3b2aa3342e2bb7214",
+      "bytes": 944793
+    },
+    "xgboost-paper.html": {
+      "sha256": "7172a85c67b623c61afe69bcbe6276946ed45bd9979cc8a95144d13684bf3fcc",
+      "bytes": 497086
+    },
+    "spark_estimator_examples.py": {
+      "sha256": "1b35d83d47417e000935c992e7f4193c277254f8d4592c36452370a46500bdb3",
+      "bytes": 3455
+    },
+    "spark_estimator.rst": {
+      "sha256": "179a8fd8dd3e68735fbfd906c087f1475220abb24d9923f22769355ec3c231de",
+      "bytes": 11718
+    },
+    "XGBOOST_LICENSE": {
+      "sha256": "b96f9cead5f4ea4c0a217bd9d879427443a353598fb72694f2d8c4428b53a6af",
+      "bytes": 11349
+    }
+  }
+}
